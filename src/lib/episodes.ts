@@ -3,6 +3,7 @@ export const episodes = [
         slug: "the-day-europe-exploded",
         title: "The Day Europe Exploded",
         subtitle: "The assassination that ignited a continent",
+        category: "Wars",
         image:
             "https://images.unsplash.com/photo-1564396322457-3d8c08dbad7d?q=80&w=2070&auto=format&fit=crop",
         excerpt: "A single assassination triggered the first global catastrophe.",
@@ -23,6 +24,7 @@ export const episodes = [
         slug: "the-fall-of-berlin",
         title: "The Fall of Berlin",
         subtitle: "When the Third Reich collapsed",
+        category: "Wars",
         image: "https://images.unsplash.com/photo-1549893074-4bc2c2a6cfc0?q=80&w=2070&auto=format&fit=crop",
         excerpt: "An empire that promised a thousand years ended in rubble.",
         content: [
@@ -42,6 +44,7 @@ export const episodes = [
         slug: "the-night-of-broken-glass",
         title: "The Night of Broken Glass",
         subtitle: "When hatred became state policy",
+        category: "Collapse",
         image: "https://images.unsplash.com/photo-1581091870627-3c8d1d06c8e5?q=80&w=2070&auto=format&fit=crop",
         excerpt: "A night when shattered glass echoed across Germany.",
         content: [
@@ -61,6 +64,7 @@ export const episodes = [
         slug: "ides-of-march",
         title: "The Ides of March",
         subtitle: "When Rome murdered its dictator",
+        category: "Leaders",
         image: "https://images.unsplash.com/photo-1566393028639-d108a42c46a7?q=80&w=2070&auto=format&fit=crop",
         excerpt: "Twenty-three stab wounds ended a republic.",
         content: [
@@ -81,6 +85,7 @@ export const episodes = [
         slug: "the-berlin-wall",
         title: "The Wall That Divided the World",
         subtitle: "Concrete became ideology",
+        category: "Collapse",
         image: "https://images.unsplash.com/photo-1541849546-216549ae216d?q=80&w=2070&auto=format&fit=crop",
         excerpt: "A city was cut in half overnight.",
         content: [
@@ -100,6 +105,7 @@ export const episodes = [
         slug: "reign-of-terror",
         title: "The Reign of Terror",
         subtitle: "When revolution devoured itself",
+        category: "Collapse",
         image: "https://images.unsplash.com/photo-1608889175123-8e13c91f6e34?q=80&w=2070&auto=format&fit=crop",
         excerpt: "Liberty, equality, fraternity — and the blade.",
         content: [
