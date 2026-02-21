@@ -24,13 +24,13 @@
   }
 }
 
-:root {
-  --background: #0d0d0d;
-  --foreground: #f2f2f2;
+body {
+  background-color: #0d0d0d;
+  color: #f2f2f2;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: var(--font-inter), sans-serif;
+h1,
+h2,
+h3 {
+  letter-spacing: 2px;
 }
