@@ -1,60 +1,52 @@
 export const seasons = [
     {
         season: 1,
-        title: "The Age of Empires",
-        theme: "Power, conquest, ambition.",
+        title: "Awakening & Enlightenment",
+        theme: "The birth of modern science and thought.",
         arcs: [
             {
-                title: "Rome",
+                title: "The Renaissance",
                 episodes: [
                     {
-                        slug: "ides-of-march",
-                        title: "The Ides of March",
-                        subtitle: "When Rome murdered its dictator",
-                        category: "Leaders",
-                        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Vincenzo_Camuccini_-_La_morte_di_Cesare.jpg/1280px-Vincenzo_Camuccini_-_La_morte_di_Cesare.jpg",
-                        excerpt: "Twenty-three stab wounds ended a republic.",
+                        slug: "the-renaissance",
+                        title: "The Renaissance",
+                        subtitle: "Rebirth of classical learning",
+                        category: "Enlightenment",
+                        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/El_nacimiento_de_Venus%2C_por_Sandro_Botticelli.jpg/1280px-El_nacimiento_de_Venus%2C_por_Sandro_Botticelli.jpg",
+                        excerpt: "Humanity steps out of the dark ages to embrace art and reason.",
                         content: [
-                            { type: "lead", text: "March 15, 44 BCE." },
-                            { type: "normal", text: "The Senate chamber at the Theatre of Pompey was heavy with whispers. It was a day of routine political business, but beneath the togas of up to sixty senators hid military-grade daggers." },
-                            { type: "normal", text: "Julius Caesar, recently declared 'Dictator Perpetuo' (dictator in perpetuity), arrived late. He had been warned by a seer to beware the Ides of March. His wife, Calpurnia, had suffered from terrifying nightmares and begged him to stay home. He dismissed them both." },
-                            { type: "image", url: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Foro_Romano_Musei_Capitolini_Roma.jpg/1280px-Foro_Romano_Musei_Capitolini_Roma.jpg", caption: "The ruins of the Roman Forum, where the political machinery of the Republic fractured." },
-                            { type: "normal", text: "Caesar had crossed the Rubicon, defeated his rival Pompey in a bloody civil war, and centralized power to a degree never before seen in the nearly 500-year history of the Roman Republic. To the optimates—the conservative elite—Caesar was a tyrant dismantling their traditional freedoms. To the common people, he was a hero." },
-                            { type: "normal", text: "As Caesar took his seat, the conspirators crowded around him under the guise of presenting a petition. Tillius Cimber grabbed Caesar's toga, pulling it from his shoulders—the signal to strike. Casca landed the first blow, a glancing strike to the neck." },
-                            { type: "normal", text: "Caesar fought back initially, but as he was surrounded by senators hacking wildly—often cutting each other in the frenzy—he realized the magnitude of the betrayal. Among the assassins was Marcus Junius Brutus, a man Caesar loved like a son." },
-                            { type: "emphasis", text: "Et tu, Brute?" },
-                            { type: "image", url: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Foro_Romano_Musei_Capitolini_Roma.jpg/1280px-Foro_Romano_Musei_Capitolini_Roma.jpg", caption: "Marble statues stare blindly as history remembers the blood spilled at Pompey's Theatre." },
-                            { type: "normal", text: "According to legend, upon seeing Brutus with a drawn blade, Caesar pulled his toga over his head and submitted to his fate. He was stabbed exactly 23 times, though a later autopsy determined only one wound to the chest was fatal. He bled out at the base of the statue of his old rival, Pompey." },
-                            { type: "normal", text: "The assassins fled into the streets, holding their bloody daggers aloft, shouting they had restored Roman liberty. But the people did not cheer. They rioted." },
-                            { type: "normal", text: "The murder did not save the Republic; it guaranteed its destruction. It vacuumed Rome into a horrific series of civil wars that culminated in the rise of Caesar's adopted heir, Octavian, who would become Augustus—the first true Emperor of Rome." },
-                            { type: "closing", text: "Republics rarely die in battle. They die in betrayal." }
+                            { type: "lead", text: "Florence. 15th Century." },
+                            { type: "normal", text: "The Renaissance, or 'rebirth', marked an extraordinary cultural awakening across Europe following the stagnation of the Middle Ages. Rooted in the rediscovery of classical Greek and Roman philosophy, literature, and art, it fundamentally shifted the European worldview from the divine to the human." },
+                            { type: "normal", text: "Humanism became the defining intellectual movement. Scholars like Petrarch and Erasmus championed the idea that human beings are the center of their own universe and should embrace human achievements in education, classical arts, literature, and science." },
+                            { type: "image", url: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/El_nacimiento_de_Venus%2C_por_Sandro_Botticelli.jpg/1280px-El_nacimiento_de_Venus%2C_por_Sandro_Botticelli.jpg", caption: "Botticelli's 'The Birth of Venus', a hallmark of Renaissance artistic achievement emphasizing classical mythology and human beauty." },
+                            { type: "normal", text: "This era was heavily funded by wealthy merchant families, most notably the Medici in Florence. Their patronage supported titans of history such as Leonardo da Vinci, Michelangelo, and Raphael, pushing the boundaries of perspective, realism, and anatomy." },
+                            { type: "emphasis", text: "Man is the measure of all things." },
+                            { type: "normal", text: "The invention of the Gutenberg printing press around 1440 was perhaps the most crucial catalyst. It allowed humanist texts and radical new ideas to bypass the control of the clergy and spread across the continent at unprecedented speeds, laying the groundwork for the scientific revolutions and political upheavals that would follow." },
+                            { type: "closing", text: "The mind, once stretched by a new idea, never returns to its original dimensions." }
                         ]
                     }
                 ]
             },
             {
-                title: "Conquerors",
+                title: "The Scientific Revolution",
                 episodes: [
                     {
-                        slug: "rise-of-napoleon",
-                        title: "The Rise of Napoleon",
-                        subtitle: "From artillery officer to emperor",
-                        category: "Leaders",
-                        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg/1280px-Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg",
-                        excerpt: "Revolution created him. Europe feared him.",
+                        slug: "scientific-discoveries",
+                        title: "The Scientific Revolution",
+                        subtitle: "Discoveries of the 17th and 18th centuries",
+                        category: "Enlightenment",
+                        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Portrait_of_Sir_Isaac_Newton%2C_1689_%28brightened%29.jpg/1280px-Portrait_of_Sir_Isaac_Newton%2C_1689_%28brightened%29.jpg",
+                        excerpt: "Rationality replaces superstition in understanding the universe.",
                         content: [
-                            { type: "lead", text: "Corsica. 1769." },
-                            { type: "normal", text: "Born on a rugged Mediterranean island shortly after it was annexed by France, Napoleone di Buonaparte was a minor noble with a fiery temperament and an undeniable genius for mathematics and artillery." },
-                            { type: "normal", text: "The chaos of the French Revolution provided the perfect ladder for a man of his ambition. While aristocratic officers fled the country, the young artillery captain proved his worth at the Siege of Toulon in 1793, driving out the British fleet. He was promoted to Brigadier General at just 24." },
-                            { type: "image", url: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg/1280px-Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg", caption: "The cannons of the Revolution cleared the path for an Emperor." },
-                            { type: "normal", text: "In 1795, he saved the National Convention from a royalist mob by firing grapeshot down the streets of Paris—giving them a 'whiff of grapeshot.' From then on, his ascent was meteoric. He took command of the ragged Army of Italy, transforming them into an unstoppable force that humbled the Austrian Empire." },
-                            { type: "normal", text: "Napoleon did not just win battles; he changed how they were fought. He moved faster than anyone thought possible, concentrating overwhelming force at critical weaknesses. He fought with a speed and ferocity that shocked the old European monarchies." },
-                            { type: "emphasis", text: "Revolution rewards the bold, but it submits to the absolute." },
-                            { type: "image", url: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg/1280px-Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg", caption: "The grand architecture of Paris, the city Napoleon would remake in his imperial image." },
-                            { type: "normal", text: "By 1799, the revolutionary government known as the Directory was bankrupt, unpopular, and weak. Napoleon returned from a campaign in Egypt, abandoned his army, and seized power in a bloodless coup d'état on the 18th Brumaire. He stylized himself as First Consul." },
-                            { type: "normal", text: "Five years later, inside the soaring Gothic arches of Notre Dame Cathedral, he took the crown from the hands of Pope Pius VII and placed it on his own head. He was no longer a servant of the Republic. He was the Emperor of the French." },
-                            { type: "normal", text: "For the next decade, his Grande Armée would march across Europe, toppling ancient thrones and redrawing the map of the world. But the seeds of his downfall were already sown in Spain and the freezing vastness of Russia." },
-                            { type: "closing", text: "Power does not share the stage." }
+                            { type: "lead", text: "Europe. The 17th Century." },
+                            { type: "normal", text: "The Age of Enlightenment and the preceding Scientific Revolution fundamentally dismantled the Aristotelian and medieval Christian views of the universe. It replaced blind faith with empiricism, observation, and mathematics." },
+                            { type: "normal", text: "It began when Nicolaus Copernicus proposed the heliocentric model, violently displacing the Earth from the center of the universe. This was later defended by Galileo Galilei, who turned his improved telescope to the heavens, observing the moons of Jupiter and the phases of Venus—discoveries that earned him the wrath of the Inquisition." },
+                            { type: "image", url: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Les_salons_au_XVIIIe_si%C3%A8cle_-_Histoire_Image.jpg/1280px-Les_salons_au_XVIIIe_si%C3%A8cle_-_Histoire_Image.jpg", caption: "Thinkers gathered in French salons, tearing down ancient dogmas with logic and debate." },
+                            { type: "normal", text: "In 1687, Sir Isaac Newton published the 'Principia Mathematica.' By formulating the laws of motion and universal gravitation, Newton proved that the same physical laws that govern the motion of an apple falling to the ground also govern the orbits of the planets. The universe was suddenly understood to be a vast, mechanical clockwork, entirely comprehensible by human reason." },
+                            { type: "emphasis", text: "If I have seen further it is by standing on the shoulders of Giants." },
+                            { type: "image", url: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Portrait_of_Sir_Isaac_Newton%2C_1689_%28brightened%29.jpg/1280px-Portrait_of_Sir_Isaac_Newton%2C_1689_%28brightened%29.jpg", caption: "Isaac Newton, whose mathematical genius defined physics for centuries." },
+                            { type: "normal", text: "Simultaneously, the Enlightenment saw philosophers like John Locke and Voltaire apply this new rationalism to human society and government. They argued for natural rights, the social contract, and the separation of church and state." },
+                            { type: "closing", text: "The shadows of superstition receded before the sharp light of inquiry." }
                         ]
                     }
                 ]
@@ -63,103 +55,70 @@ export const seasons = [
     },
     {
         season: 2,
-        title: "The World at War",
-        theme: "Industrial destruction.",
+        title: "Revolutions of the World",
+        theme: "Overthrowing empires and economies.",
         arcs: [
             {
-                title: "The Great War",
+                title: "Political Revolutions",
                 episodes: [
                     {
-                        slug: "the-day-europe-exploded",
-                        title: "The Day Europe Exploded",
-                        subtitle: "The assassination that ignited a continent",
-                        category: "Wars",
-                        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/DC-1914-27-d-Sarajevo-cropped.jpg/1280px-DC-1914-27-d-Sarajevo-cropped.jpg",
-                        excerpt: "A single assassination triggered the first global catastrophe.",
+                        slug: "american-revolution",
+                        title: "American War of Independence",
+                        subtitle: "The birth of a republic",
+                        category: "Revolution",
+                        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Surrender_of_Lord_Cornwallis.jpg/1280px-Surrender_of_Lord_Cornwallis.jpg",
+                        excerpt: "Thirteen colonies challenge the world's most powerful empire.",
                         content: [
-                            { type: "lead", text: "June 28, 1914. Sarajevo." },
-                            { type: "normal", text: "The summer sun beat down on the cobblestone streets of the Bosnian capital. Archduke Franz Ferdinand, heir to the Austro-Hungarian Empire, had come to project power in a restless territory. He ignored the warnings. He ignored the whispers of conspiracy." },
-                            { type: "normal", text: "Six assassins lined his motorcade route. They were young, radical, and armed with bombs and pistols provided by a shadowy Serbian military intelligence group known as the Black Hand. The first attempt failed—a bomb bounced off the Archduke's convertible and exploded behind it. Ferdinand insisted on continuing his schedule, a decision born of imperial pride." },
-                            { type: "image", url: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/DC-1914-27-d-Sarajevo-cropped.jpg/1280px-DC-1914-27-d-Sarajevo-cropped.jpg", caption: "The quiet streets of Europe were about to be consumed by the fires of a global conflict." },
-                            { type: "normal", text: "Later that day, a fateful miscommunication occurred. The driver, confused about a change in route to the hospital, took a wrong turn down Franz Josef Street. Realizing the mistake, he stopped to reverse. The gears jammed. The car stalled." },
-                            { type: "normal", text: "Standing directly next to the stalled vehicle was 19-year-old Gavrilo Princip, who had given up on the assassination and gone to buy a sandwich. Fate had delivered the Empire right to his feet. He stepped forward, drew his pistol, and fired twice." },
-                            { type: "emphasis", text: "One bullet severed the Archduke's jugular. The other struck his wife, Sophie, in the abdomen. Both bled to death within minutes." },
-                            { type: "normal", text: "The assassination set off a diplomatic crisis famously known as the July Crisis. Austria-Hungary, blaming Serbia, issued an ultimatum designed to be rejected. When Serbia capitulated to almost all demands, Austria declared war anyway." },
-                            { type: "image", url: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/DC-1914-27-d-Sarajevo-cropped.jpg/1280px-DC-1914-27-d-Sarajevo-cropped.jpg", caption: "The delicate interlocking system of the great powers snapped like a taut wire." },
-                            { type: "normal", text: "The rigid, interlocking system of European alliances activated like falling dominoes. Russia mobilized to protect Serbia. Germany mobilized to protect Austria. France mobilized because Germany did. Within a month, the great powers of Europe dragged their vast overseas empires into the abyss." },
-                            { type: "normal", text: "Millions of men boarded trains with flowers in their rifles, promised they would be home by Christmas. Instead, they marched into a mechanized slaughterhouse of machine guns, artillery barrages, and poison gas. Four empires—the Russian, German, Austro-Hungarian, and Ottoman—would be entirely wiped from the map." },
-                            { type: "closing", text: "The war promised to end all wars. It only prepared the next." }
+                            { type: "lead", text: "Lexington. 1775." },
+                            { type: "normal", text: "The American Revolution was an ideological and political sea change. Thirteen disparate colonies on the eastern seaboard of North America defied the British Empire—then the preeminent global superpower—over grievances regarding taxation without representation and abuses of colonial liberties." },
+                            { type: "normal", text: "Inspired by Enlightenment ideals of natural rights and the social contract, the Founding Fathers drafted the Declaration of Independence in 1776, declaring that 'all men are created equal' and dissolving all political bands with Great Britain." },
+                            { type: "image", url: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Surrender_of_Lord_Cornwallis.jpg/1280px-Surrender_of_Lord_Cornwallis.jpg", caption: "The British surrender at Yorktown, marking the impossible victory of the Continental Army." },
+                            { type: "normal", text: "The ensuing war was brutal. George Washington's Continental Army suffered through freezing winters at Valley Forge and crushing early defeats. However, through guerrilla tactics, immense perseverance, and crucial naval and military intervention from France, the ragtag army broke British resolve." },
+                            { type: "emphasis", text: "Give me liberty, or give me death!" },
+                            { type: "normal", text: "The victory at Yorktown in 1781 effectively ended the war. The newly independent United States established a Constitution completely abandoning monarchy in favor of a democratic republic with separated powers—a radical experiment that would inspire rebellions around the globe." },
+                            { type: "closing", text: "A nation conceived in liberty changed the trajectory of human governance." }
                         ]
                     },
                     {
-                        slug: "guns-of-august",
-                        title: "The Guns of August",
-                        subtitle: "How Europe sleepwalked into catastrophe",
-                        category: "Wars",
-                        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Aerial_Photography_on_the_Western_Front%2C_1916._HU100394.jpg/1280px-Aerial_Photography_on_the_Western_Front%2C_1916._HU100394.jpg",
-                        excerpt: "Mobilization orders sealed the fate of millions.",
+                        slug: "french-revolution",
+                        title: "The French Revolution",
+                        subtitle: "Liberty, Equality, Fraternity... and the Guillotine",
+                        category: "Revolution",
+                        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Anonymous_-_Prise_de_la_Bastille.jpg/1280px-Anonymous_-_Prise_de_la_Bastille.jpg",
+                        excerpt: "A monarchy toppled by the rage of its starving people.",
                         content: [
-                            { type: "lead", text: "August 1914. The Clocks Run Out." },
-                            { type: "normal", text: "As July bled into August, the frantic diplomatic cables crossing between London, Paris, Berlin, and St. Petersburg ceased to matter. The military timetables had taken over. The inflexible logic of mobilization meant that once the order was given, it could not be halted without throwing a nation into chaos." },
-                            { type: "normal", text: "Germany's Schlieffen Plan dictated that to avoid a two-front war against France and Russia, they had to knock France out quickly. This required marching millions of men through neutral Belgium, a violation of international treaties that guaranteed British intervention." },
-                            { type: "image", url: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Aerial_Photography_on_the_Western_Front%2C_1916._HU100394.jpg/1280px-Aerial_Photography_on_the_Western_Front%2C_1916._HU100394.jpg", caption: "The era of cavalry and colorful uniforms died in the mud of the Western Front." },
-                            { type: "normal", text: "When the German ambassador presented the declaration of war to the Russian Foreign Minister on August 1st, both men wept. The monarchies of Europe, many related by blood through Queen Victoria, were now commanding their citizens to slaughter one another." },
-                            { type: "normal", text: "In France, the mobilization was greeted with a solemn, terrifying unity. The 'Union Sacrée' saw political enemies embrace. Jean Jaurès, the great socialist anti-war leader, was assassinated in a Parisian café just days before, silencing the last powerful voice for peace." },
-                            { type: "emphasis", text: "The lamps are going out all over Europe, we shall not see them lit again in our life-time." },
-                            { type: "normal", text: "Those haunting words by British Foreign Secretary Sir Edward Grey captured the mood as Britain declared war on Germany on August 4th following the invasion of Belgium." },
-                            { type: "image", url: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Aerial_Photography_on_the_Western_Front%2C_1916._HU100394.jpg/1280px-Aerial_Photography_on_the_Western_Front%2C_1916._HU100394.jpg", caption: "Millions marched toward the frontier, unaware they were stepping into the modern age of mechanical slaughter." },
-                            { type: "normal", text: "The opening battles—the Frontiers, Mons, the Marne—shattered all illusions. Cavalry charges with drawn sabers were met by the terrifying clatter of the Maxim machine gun. Artillery shells, fired from miles away, vaporized men before they ever saw an enemy." },
-                            { type: "normal", text: "By late autumn, the war of movement ground to a halt. A continuous line of trenches, protected by deep belts of barbed wire and saturated in mud, stretched from the Swiss border to the North Sea." },
-                            { type: "closing", text: "War had become industrial. The meat grinder was open." }
+                            { type: "lead", text: "Paris. July 14, 1789." },
+                            { type: "normal", text: "The French Revolution erupted from a powder keg of extreme wealth inequality, an absolute monarchy completely disconnected from its starving peasant class, and the crushing national debt from funding the American Revolution." },
+                            { type: "normal", text: "It began with the storming of the Bastille, an ancient fortress acting as a state prison and armory. The event symbolized the collapse of royal authority. The National Assembly rapidly drafted the 'Declaration of the Rights of Man and of the Citizen,' asserting universal human rights." },
+                            { type: "image", url: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Anonymous_-_Prise_de_la_Bastille.jpg/1280px-Anonymous_-_Prise_de_la_Bastille.jpg", caption: "Smoke and gunfire at the Bastille, the violent birth of a republic." },
+                            { type: "normal", text: "However, the revolution quickly radicalized. Faced with invading foreign monarchies attempting to restore King Louis XVI, and severe internal paranoia, the Jacobins seized control. They executed the King and Queen Marie Antoinette, plunging France into the 'Reign of Terror' led by Maximilien Robespierre." },
+                            { type: "emphasis", text: "The revolution devours its children." },
+                            { type: "image", url: "https://upload.wikimedia.org/wikipedia/commons/2/2f/Octobre_1793%2C_supplice_de_9_%C3%A9migr%C3%A9s.jpg", caption: "The grim efficiency of the guillotine defined this bloody chapter." },
+                            { type: "normal", text: "Thousands of supposed enemies of the revolution were unceremoniously decapitated at the Place de la Révolution. The bloodshed only ended when Robespierre himself was sent to the blade, leading to the rise of a certain ambitious artillery officer who would soon crown himself Emperor." },
+                            { type: "closing", text: "Idealism drawn in blood rarely dries pure." }
                         ]
                     }
                 ]
             },
             {
-                title: "Total War",
+                title: "Economic Revolutions",
                 episodes: [
                     {
-                        slug: "operation-barbarossa",
-                        title: "Operation Barbarossa",
-                        subtitle: "The invasion that broke an empire",
-                        category: "Wars",
-                        image: "https://upload.wikimedia.org/wikipedia/commons/c/cd/Operation_Barbarossa_collage.jpg",
-                        excerpt: "The largest land invasion in history.",
+                        slug: "industrial-revolution",
+                        title: "The Industrial Revolution",
+                        subtitle: "The mechanization of humanity",
+                        category: "Revolution",
+                        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Powerloom_weaving_in_1835.jpg/1280px-Powerloom_weaving_in_1835.jpg",
+                        excerpt: "Steam and steel rewrite the rules of existence.",
                         content: [
-                            { type: "lead", text: "June 22, 1941. 3:15 AM." },
-                            { type: "normal", text: "Along an 1,800-mile front stretching from the Baltic Sea in the north to the Black Sea in the south, the earth shook. More than three million Axis troops, supported by 3,300 tanks and 2,700 aircraft, launched the largest and deadliest military operation in human history." },
-                            { type: "normal", text: "Adolf Hitler had broken the Molotov-Ribbentrop non-aggression pact with Joseph Stalin. Operation Barbarossa was not merely a conquest of territory; it was intended as a war of annihilation—an ideological crusade to eradicate 'Judeo-Bolshevism' and secure *Lebensraum* (living space) for the German Reich." },
-                            { type: "image", url: "https://upload.wikimedia.org/wikipedia/commons/c/cd/Operation_Barbarossa_collage.jpg", caption: "The mechanized blitzkrieg rolled across the endless steppes, aiming to crush the Soviet giant before the frost arrived." },
-                            { type: "normal", text: "The initial shock was devastating. Soviet border guards were overrun in minutes. The Luftwaffe destroyed thousands of Soviet aircraft while they were still parked on the runways. Stalin, paralyzed by shock and refusing to believe Hitler had betrayed him, retreated to his dacha and did not address the Soviet people for nearly two weeks." },
-                            { type: "normal", text: "German Panzer groups executed massive encirclements at Minsk, Smolensk, and Kiev, taking millions of Soviet soldiers prisoner. For the captives, it was a death sentence. The Nazis deliberately starved to death over three million Soviet prisoners of war in open-air camps behind the lines." },
-                            { type: "emphasis", text: "We have only to kick in the door and the whole rotten structure will come crashing down." },
-                            { type: "normal", text: "Hitler's arrogance proved fatal. As the German army advanced deeper into the vastness of Russia, their supply lines stretched to breaking point. The autumn rains arrived, turning the unpaved roads into impassable rivers of mud—the *Rasputitsa*." },
-                            { type: "image", url: "https://upload.wikimedia.org/wikipedia/commons/c/cd/Operation_Barbarossa_collage.jpg", caption: "When the frost hardened the mud, the temperatures plummeted. The true nightmare began." },
-                            { type: "normal", text: "Then came the Russian winter. Temperatures plummeted to forty degrees below zero. German soldiers, still wearing summer uniforms, froze to death in their foxholes. Gun oil congealed; tank engines shattered when started. By December, the German vanguard could see the spires of the Kremlin through their binoculars, but they could go no further." },
-                            { type: "normal", text: "On December 5, General Georgy Zhukov unleashed a massive Soviet counter-offensive using fresh, winter-equipped divisions brought in from Siberia. The Wehrmacht was thrown back. The myth of German invincibility was broken." },
-                            { type: "closing", text: "Ambition froze in Russian snow. The pendulum of war had swung." }
-                        ]
-                    },
-                    {
-                        slug: "the-fall-of-berlin",
-                        title: "The Fall of Berlin",
-                        subtitle: "When the Third Reich collapsed",
-                        category: "Wars",
-                        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Raising_a_flag_over_the_Reichstag_-_Restoration.jpg/1280px-Raising_a_flag_over_the_Reichstag_-_Restoration.jpg",
-                        excerpt: "An empire that promised a thousand years ended in rubble.",
-                        content: [
-                            { type: "lead", text: "Berlin. April 1945." },
-                            { type: "normal", text: "The capital of the Reich was no longer a symbol of power. It was a graveyard of concrete. The roar of Soviet artillery was constant, a deafening drumbeat signaling the end of the most destructive regime in human history." },
-                            { type: "normal", text: "Two and a half million Soviet soldiers under the command of Marshals Zhukov and Konev were encircling the city, unleashing a barrage of over a million shells within the first few days. The skyline was thick with black smoke; the Spree River was choked with debris. Above ground, the city was systematically reduced to ash." },
-                            { type: "image", url: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Raising_a_flag_over_the_Reichstag_-_Restoration.jpg/1280px-Raising_a_flag_over_the_Reichstag_-_Restoration.jpg", caption: "Berlin in ruins. A monument to the madness of total war." },
-                            { type: "normal", text: "Defending the city was a ragged, desperate assortment of what remained of the German army, bolstered by the Volkssturm—a militia consisting of old men and Hitler Youth boys, some as young as twelve, armed with panzerfausts and ordered to fight to the death." },
-                            { type: "normal", text: "Deep underground in the Führerbunker, the reality of the situation was violently rejected. Adolf Hitler moved imaginary armies on a map, issuing orders to divisions that no longer existed. The psychological collapse of the leadership mirrored the physical collapse of the city above." },
-                            { type: "emphasis", text: "The thousand-year empire lasted twelve." },
-                            { type: "normal", text: "On April 30, as Soviet troops fought room-by-room through the Reichstag building just blocks away, Hitler and Eva Braun retreated to their private quarters and committed suicide. Their bodies were carried to the chancellery garden, doused in petrol, and set ablaze as Soviet shells exploded around them." },
-                            { type: "image", url: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Raising_a_flag_over_the_Reichstag_-_Restoration.jpg/1280px-Raising_a_flag_over_the_Reichstag_-_Restoration.jpg", caption: "The heavy architecture of authoritarianism, battered down by an artillery storm." },
-                            { type: "normal", text: "The battle for Berlin was characterized by visceral, street-to-street combat. Civilians, caught in the crossfire, hid in flooded subway tunnels and ruined cellars, emerging only to find water, starvation, or surrender to the vengeful Red Army." },
-                            { type: "normal", text: "On May 2, the garrison commander, General Helmuth Weidling, ordered the surrender of the city. When the guns finally fell silent, Berlin was unrecognizable. Over 80,000 Soviet soldiers and upwards of 100,000 German defenders and civilians lay dead in the rubble." },
-                            { type: "closing", text: "Empires do not fall quietly. They collapse in smoke and agony." }
+                            { type: "lead", text: "Great Britain. Late 18th Century." },
+                            { type: "normal", text: "Arguably the most profound inflection point in human history since the agricultural revolution, the Industrial Revolution fundamentally shifted society from agrarian and hand-crafted economies to machine-driven manufacturing." },
+                            { type: "normal", text: "It began in Britain, fueled by vast coal reserves, imperial trade networks, and an environment fostering scientific inquiry. The invention of James Watt's improved steam engine in 1776 untethered factories from water sources, allowing heavy industry to erupt anywhere." },
+                            { type: "image", url: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Powerloom_weaving_in_1835.jpg/1280px-Powerloom_weaving_in_1835.jpg", caption: "The deafening roar of the power loom replaced the quiet rhythm of the spinning wheel." },
+                            { type: "normal", text: "The textile industry mechanized rapidly. Locomotives and steamships shrank the world, accelerating global trade. But this unprecedented leap in production came at a devastating human cost. Urban populations exploded overnight, packing families into squalid, disease-ridden slums." },
+                            { type: "emphasis", text: "The sky blackened with soot. The rhythm of the sun was replaced by the factory whistle." },
+                            { type: "normal", text: "Men, women, and young children worked 16-hour days in highly dangerous conditions for pennies. This brutal exploitation eventually gave rise to the labor movement, trade unionism, and the political theories of Karl Marx and Friedrich Engels, who analyzed this new brutal class divide in the Communist Manifesto." },
+                            { type: "closing", text: "Humanity conquered the earth, but the machine conquered humanity." }
                         ]
                     }
                 ]
@@ -168,76 +127,46 @@ export const seasons = [
     },
     {
         season: 3,
-        title: "Ideology & Fear",
-        theme: "Paranoia, control, systems of terror.",
+        title: "Modern Nation State System",
+        theme: "Borders, blood, and the concept of homeland.",
         arcs: [
             {
-                title: "The Cold War",
+                title: "Empires and Nations",
                 episodes: [
                     {
-                        slug: "stalins-purges",
-                        title: "The Great Purge",
-                        subtitle: "When paranoia ruled a superpower",
-                        category: "Leaders",
-                        image: "https://upload.wikimedia.org/wikipedia/commons/f/f5/Vinnycia16.jpg",
-                        excerpt: "Millions vanished in silence.",
+                        slug: "napoleonic-europe",
+                        title: "Napoleonic Europe",
+                        subtitle: "The Emperor who swallowed a continent",
+                        category: "Nations",
+                        image: "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/1280px-Flag_of_France.svg.png",
+                        excerpt: "One man's ambition redraws the map of Europe.",
                         content: [
-                            { type: "lead", text: "Moscow. August 1936." },
-                            { type: "normal", text: "It began with a show trial. Grigory Zinoviev and Lev Kamenev, Old Bolsheviks who had stood beside Lenin during the 1917 revolution, were hauled before a military tribunal. Under severe torture, they 'confessed' to absurd plots involving the assassination of Soviet leaders and espionage for fascist powers." },
-                            { type: "normal", text: "They were promised their lives if they confessed publicly. They did. They were executed anyway. This was the opening salvo of the Great Purge, Joseph Stalin’s campaign of political repression and mass murder that would secure his absolute total control over the Soviet state." },
-                            { type: "image", url: "https://upload.wikimedia.org/wikipedia/commons/f/f5/Vinnycia16.jpg", caption: "The corridors of the Lubyanka prison, where the Soviet secret police extracted impossible confessions." },
-                            { type: "normal", text: "The instrument of his paranoia was the NKVD, the secret police led by the ruthless Nikolai Yezhov. The terror was institutionalized through 'Order No. 00447', which established quotas for the arrest and execution of 'anti-Soviet elements'. If a region did not meet its quota of arrests, the local NKVD officers would be purged themselves." },
-                            { type: "normal", text: "No one was safe. The military was decapitated. Three of the five Marshals of the Soviet Union, thousands of generals, and over half the officer corps were executed or sent to the Gulag. This purge of military talent would severely handicap the Red Army when Nazi Germany invaded just a few years later." },
-                            { type: "emphasis", text: "Death solves all problems. No man, no problem." },
-                            { type: "normal", text: "The terror spread to the population at large. Intellectuals, writers, engineers, Polish minorities, and ordinary workers were arrested in the middle of the night—the dreaded 'knock on the door.' Neighbors denounced neighbors over petty grudges or out of sheer terror that failing to denounce someone else meant you were a co-conspirator." },
-                            { type: "image", url: "https://upload.wikimedia.org/wikipedia/commons/f/f5/Vinnycia16.jpg", caption: "Vast files containing false accusations filled the basements of the secret police headquarters." },
-                            { type: "normal", text: "Summary justice was administered by three-man commissions called 'troikas,' who processed execution lists by the hundreds every day. The victims were driven to killing fields like Butovo outside Moscow, shot in the back of the neck, and dumped into mass graves." },
-                            { type: "normal", text: "By the time the terror officially wound down in 1938—resulting in the execution of Yezhov himself, the architect of the purge—at least 750,000 people had been executed, with millions more suffering in forced labor camps." },
-                            { type: "closing", text: "The revolution had successfully devoured its own architects. Fear became governance." }
+                            { type: "lead", text: "Austerlitz. 1805." },
+                            { type: "normal", text: "Rising from the chaotic ashes of the French Revolution, Napoleon Bonaparte leveraged his unparalleled military genius to crown himself Emperor of the French. He did not just end the revolution; he weaponized its ideals, exporting the concepts of liberty, equality, and meritocracy across Europe at the point of a bayonet." },
+                            { type: "normal", text: "The Napoleonic Wars were a series of major conflicts pitting the French Empire against fluctuating coalitions of European monarchies (Britain, Austria, Prussia, Russia). At Austerlitz, his tactical masterpiece, he shattered the allied Russian and Austrian armies, dissolving the thousand-year-old Holy Roman Empire." },
+                            { type: "image", url: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg/1280px-Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg", caption: "The Emperor in his study. His code of laws outlasted his conquests." },
+                            { type: "normal", text: "Wherever his Grande Armée marched, he implemented the Napoleonic Code, dismantling feudalism and standardizing laws. However, his continental blockade against Britain and his disastrous invasion of Russia in 1812 engineered his downfall." },
+                            { type: "emphasis", text: "From the heights of these pyramids, forty centuries look down on us." },
+                            { type: "normal", text: "Though ultimately defeated at Waterloo in 1815 and exiled to St. Helena, Napoleon's impact was permanent. The monarchs who defeated him tried to rewind the clock at the Congress of Vienna, but the genie of nationalism and modern statehood had been permanently unleashed." },
+                            { type: "closing", text: "A dictator spread liberty with artillery, leaving a modernized continent in his wake." }
                         ]
                     },
                     {
-                        slug: "the-berlin-wall",
-                        title: "The Wall That Divided the World",
-                        subtitle: "Concrete became ideology",
-                        category: "Collapse",
-                        image: "https://upload.wikimedia.org/wikipedia/commons/5/5d/Berlinermauer.jpg",
-                        excerpt: "A city was cut in half overnight.",
+                        slug: "rise-of-nationalism",
+                        title: "Rise of Nationalism",
+                        subtitle: "The 19th Century map is redrawn",
+                        category: "Nations",
+                        image: "https://upload.wikimedia.org/wikipedia/commons/c/c6/Frederic_Sorrieu_-_Universal_Democratic_and_Social_Republic_1848.jpg",
+                        excerpt: "The dangerous assertion that every people deserves a state.",
                         content: [
-                            { type: "lead", text: "Berlin. August 13, 1961." },
-                            { type: "normal", text: "It happened in the dead of night. Under the cover of darkness, East German soldiers and construction workers unrolled miles of barbed wire through the center of Berlin. They tore up streets, blocked intersections, and severed subway lines." },
-                            { type: "normal", text: "When Berliners woke up, they found their city—and their lives—split in two." },
-                            { type: "image", url: "https://upload.wikimedia.org/wikipedia/commons/5/5d/Berlinermauer.jpg", caption: "The grim reality of concrete: an ideology that had to physically lock up its own populace to survive." },
-                            { type: "normal", text: "Following World War II, Germany was divided among the Allied powers. Berlin, though situated deep within Soviet-controlled East Germany, was similarly split. Over the next 15 years, as living conditions deteriorated in the East and flourished in the Western sectors, roughly 2.5 million East Germans fled through West Berlin." },
-                            { type: "normal", text: "This brain drain was an economic and ideological disaster for the Soviet bloc. The solution was brutal: a 96-mile militarized barrier completely encircling West Berlin, suffocating escape. They called it the 'Anti-Fascist Protection Rampart'." },
-                            { type: "emphasis", text: "Families went to sleep together. They woke up divided." },
-                            { type: "normal", text: "Over the next decades, the initial barbed wire was replaced by a sophisticated, lethal system. The 'Death Strip' featured 12-foot high concrete walls, anti-vehicle trenches, dogs on running lines, beds of nails, hundreds of guard towers, and trip-wire machine guns." },
-                            { type: "image", url: "https://upload.wikimedia.org/wikipedia/commons/5/5d/Berlinermauer.jpg", caption: "Graffiti covered the Western side; the Eastern side remained pristine white so guards could easily spot silhouettes." },
-                            { type: "normal", text: "East German border guards were given the *Schießbefehl*—the order to shoot to kill anyone attempting to cross. The human cost was devastating. Desperate individuals attempted escape via hot air balloons, ziplines, secret tunnels, and hidden compartments in cars. At least 140 people died attempting to cross, bleeding out in the Death Strip while the world watched from the West." },
-                            { type: "normal", text: "The Wall stood for 28 years as the ultimate physical manifestation of the Iron Curtain—a monument to a system that had failed intrinsically." },
-                            { type: "closing", text: "Walls do not just divide land. They scar memory." }
-                        ]
-                    },
-                    {
-                        slug: "fall-of-soviet-union",
-                        title: "The Last Flag Lowered",
-                        subtitle: "The end of a superpower",
-                        category: "Collapse",
-                        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/1730_map_of_the_Russian_Empire_by_Philipp_Johann_Strahlenberg.jpg/1280px-1730_map_of_the_Russian_Empire_by_Philipp_Johann_Strahlenberg.jpg",
-                        excerpt: "A red empire dissolved without war.",
-                        content: [
-                            { type: "lead", text: "December 25, 1991. 7:32 PM." },
-                            { type: "normal", text: "Over the Kremlin, the red flag with the hammer and sickle was lowered for the final time. In its place, the white, blue, and red tricolor of the Russian Federation was raised into the freezing Moscow night. The cold war ended not with a nuclear holocaust, but with a signature on a piece of paper." },
-                            { type: "normal", text: "The collapse of the Soviet Union was one of the most sudden, astonishing events of the 20th century. A global superpower that commanded tens of thousands of nuclear weapons and controlled half of Europe simply ceased to exist." },
-                            { type: "image", url: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/1730_map_of_the_Russian_Empire_by_Philipp_Johann_Strahlenberg.jpg/1280px-1730_map_of_the_Russian_Empire_by_Philipp_Johann_Strahlenberg.jpg", caption: "The heavy architecture of Moscow, built to last an eternity, watched the ideology fracture." },
-                            { type: "normal", text: "The seeds were planted by internal decay. A stagnant economy ravaged by heavy military spending, the disastrous war in Afghanistan, and the devastating nuclear accident at Chernobyl exposed the rot in the Soviet system." },
-                            { type: "normal", text: "When Mikhail Gorbachev assumed power in 1985, he introduced *Glasnost* (openness) and *Perestroika* (restructuring) in a desperate attempt to save the system. Instead, allowing the press to speak freely and giving citizens a taste of political liberty acted like a match to a powder keg of buried nationalist resentments." },
-                            { type: "emphasis", text: "You cannot reform a system built entirely on force without using force." },
-                            { type: "normal", text: "In 1989, the satellite states of Eastern Europe—Poland, Hungary, East Germany, Romania—shook off Soviet control one by one. Gorbachev refused to send in the tanks, decisively breaking with Soviet tradition. The Warsaw Pact vanished in months." },
-                            { type: "image", url: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/1730_map_of_the_Russian_Empire_by_Philipp_Johann_Strahlenberg.jpg/1280px-1730_map_of_the_Russian_Empire_by_Philipp_Johann_Strahlenberg.jpg", caption: "The statues of Lenin came down, making way for rampant, chaotic capitalism." },
-                            { type: "normal", text: "The crisis finally reached the heartland. In August 1991, hardline communists attempted a coup against Gorbachev in Moscow, sending tanks to the Russian parliament building. The coup failed spectacularly when Boris Yeltsin famously climbed onto a tank to rally the crowds, demonstrating that the hardliners had lost the will to pull the trigger." },
-                            { type: "normal", text: "Following the failed coup, the political authority of the central Soviet government evaporated. The individual republics declared independence one after another. By December, Gorbachev resigned as the President of a country that no longer existed." },
-                            { type: "closing", text: "The empire fell without a battle, suffocated by its own contradictions." }
+                            { type: "lead", text: "Europe. The 19th Century." },
+                            { type: "normal", text: "Following the Napoleonic Wars, a powerful new ideology swept across Europe: Nationalism. It was the belief that people who share a common language, history, and culture should be untied as an independent nation, rather than subjects of multi-ethnic empires." },
+                            { type: "normal", text: "This sentiment boiled over during the Revolutions of 1848, the 'Spring of Nations.' Although these liberal rebellions were largely crushed by conservative monarchies, the ideological framework was set. The concept of loyalty shifted from a King to the 'Fatherland'." },
+                            { type: "image", url: "https://upload.wikimedia.org/wikipedia/commons/c/c6/Frederic_Sorrieu_-_Universal_Democratic_and_Social_Republic_1848.jpg", caption: "An allegorical depiction of the peoples of Europe marching toward independent republics." },
+                            { type: "normal", text: "Nationalism became the tool to forge mighty new states. Through 'Blood and Iron,' Otto von Bismarck brutally orchestrated a series of wars that united the fragmented German states into the formidable German Empire by 1871. Similarly, figures like Garibaldi and Cavour achieved the unification of Italy." },
+                            { type: "emphasis", text: "A nation is a soul, a spiritual principle." },
+                            { type: "normal", text: "While it united Germany and Italy, nationalism acted as a corrosive acid on the aging Austro-Hungarian and Ottoman empires. The varied ethnic groups within their borders—Serbs, Czechs, Poles—began demanding autonomy, turning the Balkans into a powder keg that would eventually drag the entire world into war." },
+                            { type: "closing", text: "Identity became a weapon more potent than artillery." }
                         ]
                     }
                 ]
@@ -246,75 +175,242 @@ export const seasons = [
     },
     {
         season: 4,
-        title: "Revolutions & Collapse",
-        theme: "Systems breaking.",
+        title: "World War I & The Interwar Era",
+        theme: "The shattering of the world order.",
         arcs: [
             {
-                title: "Systems breaking",
+                title: "The First Global Conflict",
                 episodes: [
                     {
-                        slug: "reign-of-terror",
-                        title: "The Reign of Terror",
-                        subtitle: "When revolution devoured itself",
-                        category: "Collapse",
-                        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Aerial_Photography_on_the_Western_Front%2C_1916._HU100394.jpg/1280px-Aerial_Photography_on_the_Western_Front%2C_1916._HU100394.jpg",
-                        excerpt: "Liberty, equality, fraternity — and the blade.",
+                        slug: "world-war-one",
+                        title: "World War I: Causes and Consequences",
+                        subtitle: "The meat grinder of empires",
+                        category: "War",
+                        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Bataille_de_Verdun_1916.jpg/1280px-Bataille_de_Verdun_1916.jpg",
+                        excerpt: "Trench warfare erases a generation of youth.",
                         content: [
-                            { type: "lead", text: "Paris. Summer 1793." },
-                            { type: "normal", text: "The French Revolution had promised a new dawn of human rights based on 'Liberty, Equality, Fraternity.' But as foreign armies invaded and internal rebellions flared across the countryside, the noble ideals of 1789 warped into profound political paranoia." },
-                            { type: "normal", text: "Power consolidated into the hands of the secretive Committee of Public Safety, led by Maximilien Robespierre—a charismatic lawyer so radically devoted to revolutionary purity that he earned the nickname 'The Incorruptible.' Robespierre coldly determined that terror was merely justice: prompt, severe, inflexible." },
-                            { type: "image", url: "https://upload.wikimedia.org/wikipedia/commons/2/2f/Octobre_1793%2C_supplice_de_9_%C3%A9migr%C3%A9s.jpg", caption: "The heavy cobblestones of Paris, soon to be slick with the blood of the republic's enemies." },
-                            { type: "normal", text: "A new machine of industrial death was erected in the Place de la Révolution: the guillotine. It was democratic, ensuring nobles and peasants lost their heads with equal speed and minimal suffering. Soon, the blade was falling with terrifying regularity, surrounded by crowds of citizens knitting 'liberty caps' and cheering as heads rolled into the wicker baskets." },
-                            { type: "emphasis", text: "Revolution protects itself by destroying its enemies." },
-                            { type: "normal", text: "The 'Law of Suspects' made it a treasonous offense to act, speak, or even think against the Revolution. Neighbors turned on neighbors. Simply not appearing enthusiastic enough about the republic—or addressing someone as 'Monsieur' instead of 'Citizen'—could result in a death sentence." },
-                            { type: "image", url: "https://upload.wikimedia.org/wikipedia/commons/2/2f/Octobre_1793%2C_supplice_de_9_%C3%A9migr%C3%A9s.jpg", caption: "The shadows fell heavy across France as logic surrendered to radicalism." },
-                            { type: "normal", text: "The trials of the Revolutionary Tribunal became mockeries of justice, often denying defendants legal counsel or the right to call witnesses. Over a 10-month period, roughly 17,000 people were officially executed across France. The victims were not just aristocrats; they were bakers, priests, intellectuals, and early supporters of the revolution who were deemed insufficiently radical." },
-                            { type: "normal", text: "The cycle of violence accelerated until it consumed its own architects. Fearing they would be the next ones sent to the blade, members of the National Convention finally turned against Robespierre in the Thermidorian Reaction." },
-                            { type: "normal", text: "On July 28, 1794, Robespierre himself, suffering from a shattered jaw resulting from a botched suicide attempt, was hauled before the guillotine. As his severed head was shown to the crowd, the Reign of Terror finally broke." },
-                            { type: "closing", text: "Terror is nothing more than speedy, severe, and inflexible justice. And it spares no one." }
+                            { type: "lead", text: "The Western Front. 1914–1918." },
+                            { type: "normal", text: "The First World War was triggered by a toxic cocktail of unchecked militarism, complex defensive alliances, imperial rivalries, and fervent nationalism. When Archduke Franz Ferdinand was assassinated in Sarajevo in June 1914, the rigid alliance system activated, pulling the great powers into a mechanized slaughterhouse." },
+                            { type: "normal", text: "The war quickly bogged down into trench warfare—a stagnant, horrifying reality stretching from Switzerland to the sea. Men lived in mud alongside rats and corpses, subjected to unprecedented terror: artillery barrages that lasted for weeks, the rattling devastation of the Maxim machine gun, and the silent, choking horror of poison gas." },
+                            { type: "image", url: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Aerial_Photography_on_the_Western_Front%2C_1916._HU100394.jpg/1280px-Aerial_Photography_on_the_Western_Front%2C_1916._HU100394.jpg", caption: "Aerial view of the trenches: muddy scars carved across the face of Europe." },
+                            { type: "normal", text: "Battles like Verdun and the Somme produced casualties numbering in the millions for the gain of a few miles of blasted mud. The entry of the United States in 1917 finally tipped the balance of exhaustion, leading to an armistice on November 11, 1918." },
+                            { type: "emphasis", text: "Four empires collapsed: the German, Austro-Hungarian, Ottoman, and Russian." },
+                            { type: "normal", text: "The geopolitical map was redrawn by the punitive Treaty of Versailles, which placed unpayable reparations and severe territorial losses on Germany. These harsh terms sowed the seeds of bitter resentment that would lead directly to an even greater bloodbath twenty years later." },
+                            { type: "closing", text: "They called it the war to end all wars. It only set the stage." }
+                        ]
+                    },
+                    {
+                        slug: "russian-revolution",
+                        title: "The Russian Revolution",
+                        subtitle: "The birth of the Soviet machine",
+                        category: "Revolution",
+                        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/%D0%9C%D0%B8%D1%82%D0%B8%D0%BD%D0%B3_%D0%BD%D0%B0_%D0%9D%D0%B5%D0%B2%D1%81%D0%BA%D0%BE%D0%BC_%D0%BF%D1%80%D0%BE%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B5_%281917%29.jpg/1280px-%D0%9C%D0%B8%D1%82%D0%B8%D0%BD%D0%B3_%D0%BD%D0%B0_%D0%9D%D0%B5%D0%B2%D1%81%D0%BA%D0%BE%D0%BC_%D0%BF%D1%80%D0%BE%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B5_%281917%29.jpg",
+                        excerpt: "A collapsing empire embraces a radical, violent ideology.",
+                        content: [
+                            { type: "lead", text: "Petrograd. 1917." },
+                            { type: "normal", text: "Three years of devastating losses in World War I fractured the massive, backward Russian Empire. With millions dead, severe food shortages at home, and the gross incompetence of Tsar Nicholas II, the breaking point arrived in February 1917 when mass strikes and mutinies forced the Tsar to abdicate." },
+                            { type: "normal", text: "A provisional democratic government was established, but crucially, it chose to keep Russia in the war. This fatal decision provided the opening for Vladimir Lenin and his radical Bolshevik faction. Promising 'Peace, Land, and Bread,' Lenin returned from exile in a sealed train car provided by German intelligence." },
+                            { type: "image", url: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/%D0%9C%D0%B8%D1%82%D0%B8%D0%BD%D0%B3_%D0%BD%D0%B0_%D0%9D%D0%B5%D0%B2%D1%81%D0%BA%D0%BE%D0%BC_%D0%BF%D1%80%D0%BE%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B5_%281917%29.jpg/1280px-%D0%9C%D0%B8%D1%82%D0%B8%D0%BD%D0%B3_%D0%BD%D0%B0_%D0%9D%D0%B5%D0%B2%D1%81%D0%BA%D0%BE%D0%BC_%D0%BF%D1%80%D0%BE%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B5_%281917%29.jpg", caption: "The streets of Petrograd flooded with starving citizens and mutinous soldiers." },
+                            { type: "normal", text: "In October 1917, the Bolsheviks executed a swift, masterful coup d'état, seizing key infrastructure in Petrograd. They established the world's first socialist state based on Marxist ideology. To secure power, Lenin immediately negotiated a humiliating peace with Germany and ordered the execution of the entire Romanov royal family." },
+                            { type: "emphasis", text: "The goal of socialism is communism." },
+                            { type: "normal", text: "A horrific civil war erupted between the Red Army (Bolsheviks) and the White Army (anti-communists). Through immense terror orchestrated by the Cheka (secret police) and the strategic brilliance of Leon Trotsky, the Reds prevailed. In 1922, the Soviet Union was born—a massive, authoritarian superpower that would dominate the 20th century." },
+                            { type: "closing", text: "Marx wrote the theory. Lenin provided the blood." }
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "The Long Shadow",
+                episodes: [
+                    {
+                        slug: "league-of-nations",
+                        title: "League of Nations",
+                        subtitle: "A failed dream of lasting peace",
+                        category: "Diplomacy",
+                        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Flag_of_the_League_of_Nations_%281939%29.svg/1280px-Flag_of_the_League_of_Nations_%281939%29.svg.png",
+                        excerpt: "The world tries and fails to outlaw global warfare.",
+                        content: [
+                            { type: "lead", text: "Geneva. 1920." },
+                            { type: "normal", text: "Rising from the ashes of WWI, the League of Nations was the first worldwide intergovernmental organization whose principal mission was to maintain world peace. Proposed by US President Woodrow Wilson as part of his Fourteen Points, it aimed to prevent wars through collective security and disarmament." },
+                            { type: "normal", text: "It represented a massive paradigm shift in international relations, moving away from secret alliances towards open diplomacy. However, the organization was fundamentally flawed from birth. Crucially, the United States Congress voted not to join, refusing to yield sovereignty to an international body." },
+                            { type: "image", url: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Flag_of_the_League_of_Nations_%281939%29.svg/1280px-Flag_of_the_League_of_Nations_%281939%29.svg.png", caption: "The blue banner of diplomacy that crumbled before aggression." },
+                            { type: "normal", text: "Without the economic and military backing of the US, the League lacked teeth. It had no armed force of its own, relying entirely on the Great Powers (Britain and France) to enforce its resolutions, powers that were exhausted and terrified of sparking another war." },
+                            { type: "emphasis", text: "A tiger without teeth." },
+                            { type: "normal", text: "When aggressive fascist regimes began expanding in the 1930s, the League proved totally impotent. It failed to stop the Japanese invasion of Manchuria in 1931 and Mussolini's brutal conquest of Abyssinia (Ethiopia) in 1935. By the time Hitler remilitarized the Rhineland and absorbed Austria, the League was a recognized ghost town." },
+                            { type: "closing", text: "Words on paper cannot stop rolling tanks." }
+                        ]
+                    },
+                    {
+                        slug: "rise-of-nazism",
+                        title: "Rise of Nazism and Fascism",
+                        subtitle: "Totalitarianism consumes the continent",
+                        category: "Ideology",
+                        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Mussolini_and_Hitler_1940_%28retouched%29_%28cropped_b%29.jpg/1280px-Mussolini_and_Hitler_1940_%28retouched%29_%28cropped_b%29.jpg",
+                        excerpt: "Democracies fall as extreme ideologies promise order.",
+                        content: [
+                            { type: "lead", text: "Rome and Berlin. The 1920s and 30s." },
+                            { type: "normal", text: "In the wake of WWI, extreme economic instability, national humiliation, and the terrifying specter of communist revolution led many Europeans to abandon democracy in favor of brutal, hyper-nationalist dictatorships." },
+                            { type: "normal", text: "In Italy, Benito Mussolini pioneered Fascism. Promising a return to the glory of the Roman Empire and presenting himself as the only bulwark against socialism, his 'Blackshirts' violently crushed opposition. Through intimidation, he was appointed Prime Minister by the King in 1922, establishing a totalitarian state." },
+                            { type: "image", url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Mussolini_and_Hitler_1940_%28retouched%29_%28cropped_b%29.jpg/1280px-Mussolini_and_Hitler_1940_%28retouched%29_%28cropped_b%29.jpg", caption: "The architects of the most devastating war in human history." },
+                            { type: "normal", text: "In Germany, Adolf Hitler weaponized the bitter resentment of the Versailles Treaty. He combined Mussolini's fascist authoritarianism with virulent, biological antisemitism. Following the economic apocalypse of the Great Depression, his Nazi party gained massive popularity by offering scapegoats and promising to restore German pride." },
+                            { type: "emphasis", text: "The night of democracy descends rapidly when people are hungry." },
+                            { type: "normal", text: "Appointed Chancellor in 1933, Hitler rapidly dismantled the Weimar Republic. Using the burning of the Reichstag building as a pretext, he passed 'emergency decrees' stripping away civil liberties, banning rival parties, and establishing the first concentration camps. The nation was totally subordinate to the Führer." },
+                            { type: "closing", text: "Fear is the most reliable currency in the theater of politics." }
                         ]
                     },
                     {
                         slug: "great-depression",
-                        title: "The Crash That Shook the World",
-                        subtitle: "When markets erased hope",
+                        title: "The Great Depression",
+                        subtitle: "When the global economy flatlined",
                         category: "Collapse",
-                        image: "https://upload.wikimedia.org/wikipedia/commons/7/77/Menge_in_der_Wall_Street_vor_dem_Geb%C3%A4ude_der_New_Yorker_B%C3%B6rse_%28NY_Stock_Exchange%29_nach_deren_Zusammenbruchs_1929.jpg",
-                        excerpt: "Wall Street collapsed. So did livelihoods.",
+                        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Unemployed_men_queued_outside_a_depression_soup_kitchen_opened_in_Chicago_by_Al_Capone%2C_02-1931_-_NARA_-_541927.jpg/1280px-Unemployed_men_queued_outside_a_depression_soup_kitchen_opened_in_Chicago_by_Al_Capone%2C_02-1931_-_NARA_-_541927.jpg",
+                        excerpt: "A Wall Street crash throws millions into starvation.",
                         content: [
-                            { type: "lead", text: "Wall Street. October 24, 1929." },
-                            { type: "normal", text: "The Roaring Twenties had been an era of unprecedented prosperity in the United States. Radios, automobiles, and electricity transformed daily life. The stock market seemed like an escalator that only went up to the clouds. Millions of Americans bought stocks on margin, borrowing money to invest in the illusion of endless growth." },
-                            { type: "normal", text: "Then came Black Thursday. A sudden wave of panic selling hit the New York Stock Exchange. The ticker tape ran hours behind as nearly 13 million shares were frantically traded. Financiers attempted to inject cash to prop up the market, but the psychological break had already occurred." },
-                            { type: "image", url: "https://upload.wikimedia.org/wikipedia/commons/7/77/Menge_in_der_Wall_Street_vor_dem_Geb%C3%A4ude_der_New_Yorker_B%C3%B6rse_%28NY_Stock_Exchange%29_nach_deren_Zusammenbruchs_1929.jpg", caption: "The ticker tape piled up as fortunes vanished in real time." },
-                            { type: "normal", text: "Five days later, on Black Tuesday, the bottom completely fell out. The market lost $14 billion in value in a single day. Across the country, fortunes were erased. Suicides spiked as brokers threw themselves from skyscrapers." },
-                            { type: "emphasis", text: "It was not just the stock market. It was the collapse of human confidence." },
-                            { type: "normal", text: "The crash triggered a catastrophic chain reaction. As people panicked, they rushed to withdraw their money from banks. The banks, which had gambled customer deposits in the stock market, could not meet the withdrawals. Thousands of financial institutions shuttered, erasing the life savings of millions of ordinary citizens." },
-                            { type: "image", url: "https://upload.wikimedia.org/wikipedia/commons/7/77/Menge_in_der_Wall_Street_vor_dem_Geb%C3%A4ude_der_New_Yorker_B%C3%B6rse_%28NY_Stock_Exchange%29_nach_deren_Zusammenbruchs_1929.jpg", caption: "Factories fell silent. The machinery of capitalism ground to a terrifying halt." },
-                            { type: "normal", text: "Consumer spending ground to a halt. Factories closed. Unemployment skyrocketed to a staggering 25%. Breadlines and soup kitchens stretched for blocks in major cities, while homeless families constructed shantytowns sarcastically named 'Hoovervilles' after the President." },
-                            { type: "normal", text: "The Great Depression was not contained to America. It infected the global economy, tearing apart fragile post-WWI recoveries in Europe. In Germany, the economic desperation helped radicalize the populace, paving the way for the rise of the Nazi party." },
-                            { type: "closing", text: "Economic collapse didn't just break wallets; it reshaped world politics forever." }
+                            { type: "lead", text: "Wall Street. October 1929." },
+                            { type: "normal", text: "The Roaring Twenties had been an era of unprecedented prosperity, built on a mountain of speculative debt. Millions had bought stocks 'on margin' (with borrowed money). On Black Tuesday, the bubble burst violently. The stock market lost billions in value in hours, destroying immense fortunes instantly." },
+                            { type: "normal", text: "The crash triggered a bank panic. Terrified citizens rushed to withdraw their money, only to find the banks had gambled their deposits and lost. Thousands of banks failed, erasing the life savings of ordinary citizens. The money supply cratered, and the economy froze solid." },
+                            { type: "image", url: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Unemployed_men_queued_outside_a_depression_soup_kitchen_opened_in_Chicago_by_Al_Capone%2C_02-1931_-_NARA_-_541927.jpg/1280px-Unemployed_men_queued_outside_a_depression_soup_kitchen_opened_in_Chicago_by_Al_Capone%2C_02-1931_-_NARA_-_541927.jpg", caption: "Soup kitchens stretched for blocks, sometimes ironically funded by mobsters like Al Capone." },
+                            { type: "normal", text: "Global trade collapsed as nations erected massive protectionist tariffs. Unemployment in the US skyrocketed to 25%. Breadlines stretched through cities, and homeless families constructed massive shantytowns dubbed 'Hoovervilles'." },
+                            { type: "emphasis", text: "Dust storms blotted out the sun across the American heartland." },
+                            { type: "normal", text: "The Depression wasn't just an American tragedy; it infected the globe. It severely weakened the democratic governments of the Weimar Republic and Japan, providing the direct economic misery that populist, militaristic fascists needed to seize total power in their respective countries." },
+                            { type: "closing", text: "Poverty is the most fertile soil for extremism." }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        season: 5,
+        title: "World War II & The UNO",
+        theme: "Total annihilation and attempts at unity.",
+        arcs: [
+            {
+                title: "Total War",
+                episodes: [
+                    {
+                        slug: "world-war-two",
+                        title: "World War II: Causes and Consequences",
+                        subtitle: "The deadliest conflict in human history",
+                        category: "War",
+                        image: "https://upload.wikimedia.org/wikipedia/commons/1/10/Bundesarchiv_Bild_101I-646-5188-17%2C_Flugzeuge_Junkers_Ju_87.jpg",
+                        excerpt: "The globe burns as Axis powers seek total domination.",
+                        content: [
+                            { type: "lead", text: "Poland. September 1, 1939." },
+                            { type: "normal", text: "World War II was the catastrophic result of unresolved grievances from WWI, the economic despair of the Great Depression, and the aggressive imperial expansion of Fascist Italy, Nazi Germany, and Imperial Japan. After years of the Allies practicing 'appeasement,' Hitler's invasion of Poland finally crossed the red line." },
+                            { type: "normal", text: "The war introduced mechanized blitzkrieg—lightning war utilizing coordinated tanks and dive bombers that bypassed static defenses and crushed nations in weeks. France fell in six weeks. Britain barely survived the aerial bombardment of the Blitz." },
+                            { type: "image", url: "https://upload.wikimedia.org/wikipedia/commons/1/10/Bundesarchiv_Bild_101I-646-5188-17%2C_Flugzeuge_Junkers_Ju_87.jpg", caption: "The terrifying scream of the Stuka dive bomber became the soundtrack of the blitzkrieg." },
+                            { type: "normal", text: "The conflict truly encompassed the globe when Hitler betrayed his pact with Stalin and invaded the USSR in Operation Barbarossa, and when Japan executed a surprise strike against the US fleet at Pearl Harbor. The war became an existential struggle of industrial production." },
+                            { type: "emphasis", text: "A war where civilians were the primary targets." },
+                            { type: "normal", text: "The war witnessed unimaginable atrocities, culminating in the Holocaust—the industrialized, systematic extermination of six million Jews and millions of others by the Nazi regime. The conflict finally ended in 1945 only after the United States dropped two atomic bombs on the Japanese cities of Hiroshima and Nagasaki." },
+                            { type: "closing", text: "Up to 85 million people died. Humanity had learned how to end itself." }
                         ]
                     },
                     {
-                        slug: "the-night-of-broken-glass",
-                        title: "The Night of Broken Glass",
-                        subtitle: "When hatred became state policy",
-                        category: "Collapse",
-                        image: "https://upload.wikimedia.org/wikipedia/commons/a/a1/Interior_view_of_the_destroyed_Fasanenstrasse_Synagogue%2C_Berlin.jpg",
-                        excerpt: "A night when shattered glass echoed across Germany.",
+                        slug: "united-nations",
+                        title: "United Nations Organisation (UNO)",
+                        subtitle: "A second attempt at world peace",
+                        category: "Diplomacy",
+                        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Flag_of_the_United_Nations.svg/1280px-Flag_of_the_United_Nations.svg.png",
+                        excerpt: "The victors attempt to build a global framework for security.",
                         content: [
-                            { type: "lead", text: "November 9, 1938." },
-                            { type: "normal", text: "The streets of Germany and Austria echoed with the sound of shattering glass, splintering wood, and marching boots. Kristallnacht—the Night of Broken Glass—was not a spontaneous riot. It was a highly coordinated, state-sponsored pogrom." },
-                            { type: "normal", text: "The pretext was the assassination of a German diplomat in Paris by a Jewish teenager, out of desperation over the deportation of his family. But the Nazi regime had been waiting for just such an excuse to escalate their persecution of the Jewish population from legislative discrimination to physical violence." },
-                            { type: "image", url: "https://upload.wikimedia.org/wikipedia/commons/a/a1/Interior_view_of_the_destroyed_Fasanenstrasse_Synagogue%2C_Berlin.jpg", caption: "Shattered windows glinted on the pavement, giving the horrific night its name." },
-                            { type: "normal", text: "Paramilitary forces (the SA and SS), disguised in civilian clothes, led the mobs alongside radicalized citizens. They were given explicit orders: destroy Jewish property, arrest healthy Jewish men, but ensure the fires did not spread to Aryan-owned buildings." },
-                            { type: "normal", text: "Over the course of 48 hours, the scale of destruction was unimaginable. More than 1,000 synagogues were torched, many burning to the ground as local fire departments stood by, watching. Over 7,000 Jewish-owned businesses were looted and their storefronts smashed, leaving the streets glittering with broken glass." },
-                            { type: "emphasis", text: "The world watched. And did nothing." },
-                            { type: "image", url: "https://upload.wikimedia.org/wikipedia/commons/a/a1/Interior_view_of_the_destroyed_Fasanenstrasse_Synagogue%2C_Berlin.jpg", caption: "The heavy architecture witnessed acts of cruelty that marked the point of no return." },
-                            { type: "normal", text: "The human toll was far worse than the property damage. At least 91 Jewish citizens were murdered in the streets or beaten to death in their homes. Furthermore, over 30,000 Jewish men were arrested and transported to concentration camps like Dachau and Buchenwald simply for existing." },
-                            { type: "normal", text: "Kristallnacht marked a horrific turning point. It signaled the end of Jewish life in Germany and proved to the Nazi leadership that they could orchestrate mass, public violence against minorities without significant backlash from the domestic population or the international community." },
-                            { type: "normal", text: "What began as discrimination transformed into the systemic infrastructure of the Holocaust. The broken glass of November 1938 was the terrifying prologue to the gas chambers." },
-                            { type: "closing", text: "Some nights do not end at sunrise." }
+                            { type: "lead", text: "San Francisco. 1945." },
+                            { type: "normal", text: "Standing in the smoldering, radioactive ruins of the Second World War, the victorious Allied powers recognized that the catastrophic failure of the League of Nations could not be repeated. Fifty nations met to draft the UN Charter, aiming to 'save succeeding generations from the scourge of war'." },
+                            { type: "normal", text: "Unlike the League, the United Nations included all major global powers from its inception, primarily the United States and the Soviet Union. Crucially, it established the Security Council, granting five permanent members (US, UK, USSR, France, China) veto power to ensure the strongest militaries remained engaged in the diplomatic process." },
+                            { type: "image", url: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Flag_of_the_United_Nations.svg/1280px-Flag_of_the_United_Nations.svg.png", caption: "An olive branch wrapping the globe—a desperate hope for a permanently scarred planet." },
+                            { type: "normal", text: "Beyond military security, the UN created a vast array of allied organizations designed to tackle the root causes of conflict: poverty, disease, and economic instability. This included the World Health Organization (WHO), the International Monetary Fund (IMF), and the World Bank." },
+                            { type: "emphasis", text: "In 1948, the UN adopted the Universal Declaration of Human Rights." },
+                            { type: "normal", text: "While the UN successfully prevented a third World War and facilitated massive humanitarian efforts, it frequently found itself paralyzed during the ensuing Cold War, as the US and USSR traded vetoes to block each other's geopolitical maneuvers." },
+                            { type: "closing", text: "It did not bring heaven to earth, but it saved it from returning to hell." }
+                        ]
+                    },
+                    {
+                        slug: "liberation-struggles",
+                        title: "Advancement of Liberation Struggles",
+                        subtitle: "The crumbling of global empires",
+                        category: "Revolution",
+                        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Foro_Romano_Musei_Capitolini_Roma.jpg/1280px-Foro_Romano_Musei_Capitolini_Roma.jpg",
+                        excerpt: "The colonized world demands its freedom.",
+                        content: [
+                            { type: "lead", text: "Asia and Africa. The Post-War Era." },
+                            { type: "normal", text: "World War II shattered the myth of European invincibility. France, Britain, and the Netherlands emerged victorious but financially bankrupted and militarily exhausted. They could no longer afford to maintain their vast, exploitative overseas empires." },
+                            { type: "normal", text: "Simultaneously, the colonies themselves, who had contributed millions of soldiers and resources to the Allied war effort under the promise of freedom, now violently demanded their independence. It was the era of massive decolonization." },
+                            { type: "image", url: "https://upload.wikimedia.org/wikipedia/commons/c/c6/Frederic_Sorrieu_-_Universal_Democratic_and_Social_Republic_1848.jpg", caption: "The wave of independence movements swept across continents like wildfire." },
+                            { type: "normal", text: "In India, the British Empire yielded to the massive, non-violent civil disobedience movement led by Mahatma Gandhi, partitioning the subcontinent in 1947. In contrast, other struggles were intensely bloody. The French fought brutal, losing colonial wars to retain control in Indochina (Vietnam) and Algeria." },
+                            { type: "emphasis", text: "Between 1945 and 1960, three dozen new states in Asia and Africa achieved autonomy." },
+                            { type: "normal", text: "These newly liberated nations faced immense challenges, inheriting borders drawn arbitrarily by European colonizers that ignored ethnic realities, leading to decades of civil war, instability, and the complex challenge of forging true national identities from the ashes of empire." },
+                            { type: "closing", text: "The maps were redrawn, but the economic shadows of empire remained." }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        season: 6,
+        title: "A Divided World (1945–1991)",
+        theme: "The nuclear standoff and an interconnected globe.",
+        arcs: [
+            {
+                title: "The Bipolar Era",
+                episodes: [
+                    {
+                        slug: "cold-war",
+                        title: "The Cold War",
+                        subtitle: "A standoff at the edge of the abyss",
+                        category: "Ideology",
+                        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/NATO_vs._Warsaw_Pact_%281949-1990%29.svg/1280px-NATO_vs._Warsaw_Pact_%281949-1990%29.svg.png",
+                        excerpt: "Democracy and Communism threaten the end of the world.",
+                        content: [
+                            { type: "lead", text: "The Iron Curtain. 1945–1991." },
+                            { type: "normal", text: "As the dust of WWII settled, two superpowers emerged from the wreckage: The United States and the Soviet Union. Formerly allies of convenience against Nazi Germany, their fundamentally opposed ideologies—capitalist democracy versus totalitarian communism—locked them into a global struggle for supremacy." },
+                            { type: "normal", text: "It was 'cold' because the two powers never directly engaged in a full-scale military conflict, primarily due to the doctrine of Mutually Assured Destruction (MAD). Both sides possessed enough nuclear weapons to vaporize civilization several times over, making direct war unwinnable." },
+                            { type: "image", url: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/NATO_vs._Warsaw_Pact_%281949-1990%29.svg/1280px-NATO_vs._Warsaw_Pact_%281949-1990%29.svg.png", caption: "The division of Europe: Blue for NATO, Red for the Soviet Warsaw Pact." },
+                            { type: "normal", text: "Instead, the war was fought through geopolitical maneuvering, espionage, an intense arms and space race, and devastating proxy wars in Korea, Vietnam, and Afghanistan, where millions of locals died fighting with Soviet and American-supplied weapons." },
+                            { type: "emphasis", text: "An Iron Curtain has descended across the continent." },
+                            { type: "normal", text: "Europe was physically divided, symbolized by the Berlin Wall. The world lived in a constant state of low-level terror, culminating in the 1962 Cuban Missile Crisis, where the globe stood just seconds away from total nuclear annihilation before a diplomatic compromise was reached." },
+                            { type: "closing", text: "It was a war of ideology, funded by billions, paid in fear." }
+                        ]
+                    },
+                    {
+                        slug: "non-aligned-movement",
+                        title: "Non-Aligned Movement (NAM)",
+                        subtitle: "The Third World refuses the draft",
+                        category: "Diplomacy",
+                        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/NAM_Members.svg/1280px-NAM_Members.svg.png",
+                        excerpt: "Newly independent states reject the superpower binary.",
+                        content: [
+                            { type: "lead", text: "Belgrade. 1961." },
+                            { type: "normal", text: "As the United States and the Soviet Union pressured the globe to choose a side and join their respective military alliances (NATO and the Warsaw Pact), a massive bloc of newly independent nations in Asia, Africa, and Latin America opted for a third path." },
+                            { type: "normal", text: "Leaders like Jawaharlal Nehru of India, Sukarno of Indonesia, and Josip Broz Tito of Yugoslavia spearheaded the Non-Aligned Movement. By refusing to formally align with or against any major power bloc, they sought to protect their hard-won sovereignty from neo-colonialism and Cold War maneuverings." },
+                            { type: "image", url: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/NAM_Members.svg/1280px-NAM_Members.svg.png", caption: "The Non-Aligned Movement map: A massive coalition refusing to be pawns in a superpower chess match." },
+                            { type: "normal", text: "The term 'Third World' originated here, not as a label of poverty, but as a political designation for countries not in the First World (US/Allies) or Second World (Soviet bloc). NAM functioned as an important voting bloc within the United Nations, consistently pushing for global nuclear disarmament and anti-imperialism." },
+                            { type: "emphasis", text: "We do not wish to be the playthings of others." },
+                            { type: "normal", text: "Despite their stated neutrality, individual member states frequently found themselves drawn into superpower proxy conflicts. Yet, NAM provided crucial diplomatic architecture for developing nations to assert their collective voice on the world stage." },
+                            { type: "closing", text: "Neutrality in a polarized world is its own form of rebellion." }
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "The New World Order",
+                episodes: [
+                    {
+                        slug: "unipolar-world",
+                        title: "The Unipolar World & Globalization",
+                        subtitle: "The triumph of the market",
+                        category: "Systems",
+                        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Early_migrations_mercator.svg/1280px-Early_migrations_mercator.svg.png",
+                        excerpt: "The Soviet collapse leaves one superpower in an interconnected era.",
+                        content: [
+                            { type: "lead", text: "Moscow. 1991." },
+                            { type: "normal", text: "With the spectacular collapse of the Soviet Union in 1991, the bipolar architecture of the Cold War vanished instantly. The United States stood alone as the sole, unchallenged global superpower, commanding unmatched military, economic, and cultural dominance. We had entered a Uni-polar world." },
+                            { type: "normal", text: "Political scientist Francis Fukuyama famously declared it the 'End of History,' theorizing that Western liberal democracy and free-market capitalism had definitively proven to be the final form of human government." },
+                            { type: "image", url: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Early_migrations_mercator.svg/1280px-Early_migrations_mercator.svg.png", caption: "As borders lost their meaning to capital, the world connected in webs of commerce and data." },
+                            { type: "normal", text: "This era was defined by hyper-Globalization. Driven by massive advancements in telecommunications, the internet, and containerized shipping, national borders became incredibly porous to the flow of goods, capital, and information. Multinational corporations relocated manufacturing to developing nations, creating deeply intertwined global supply chains." },
+                            { type: "emphasis", text: "The world shrank to the size of a computer screen." },
+                            { type: "normal", text: "While globalization lifted hundreds of millions out of extreme poverty—particularly in China and India—it also hollowed out the manufacturing sectors in the West, dramatically increased wealth inequality, and made local economies dangerously vulnerable to global financial shocks." },
+                            { type: "closing", text: "History had not ended; it had simply moved from the battlefield to the boardroom." }
                         ]
                     }
                 ]
@@ -323,5 +419,4 @@ export const seasons = [
     }
 ];
 
-// Flat export to maintain backward compatibility for standard episode routes
 export const episodes = seasons.flatMap(season => season.arcs.flatMap(arc => arc.episodes));
