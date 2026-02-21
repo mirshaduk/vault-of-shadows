@@ -120,5 +120,95 @@ export const episodes = [
             { type: "normal", text: "On July 28, 1794, Robespierre himself was marched to the scaffold. As his severed head was shown to the crowd, the Reign of Terror finally broke, leaving a traumatized nation that would soon welcome the authoritarianism of Napoleon Bonaparte." },
             { type: "closing", text: "Terror consumes even its architects." }
         ]
+    },
+    {
+        slug: "guns-of-august",
+        title: "The Guns of August",
+        subtitle: "How Europe sleepwalked into catastrophe",
+        category: "Wars",
+        image: "https://images.unsplash.com/photo-1608889175123-8e13c91f6e34?q=80&w=2070&auto=format&fit=crop",
+        excerpt: "Mobilization orders sealed the fate of millions.",
+        content: [
+            { type: "lead", text: "August 1914." },
+            { type: "normal", text: "Telegrams flew across Europe. Alliances activated like machinery." },
+            { type: "emphasis", text: "No one believed it would last long." },
+            { type: "normal", text: "By winter, trenches scarred the continent." },
+            { type: "closing", text: "War had become industrial." }
+        ]
+    },
+    {
+        slug: "operation-barbarossa",
+        title: "Operation Barbarossa",
+        subtitle: "The invasion that broke an empire",
+        category: "Wars",
+        image: "https://images.unsplash.com/photo-1520975918318-6e0b90c33c8c?q=80&w=2070&auto=format&fit=crop",
+        excerpt: "The largest land invasion in history.",
+        content: [
+            { type: "lead", text: "June 22, 1941." },
+            { type: "normal", text: "Three million soldiers crossed into Soviet territory." },
+            { type: "emphasis", text: "The war had expanded beyond imagination." },
+            { type: "normal", text: "Winter would become the greatest enemy." },
+            { type: "closing", text: "Ambition froze in Russian snow." }
+        ]
+    },
+    {
+        slug: "rise-of-napoleon",
+        title: "The Rise of Napoleon",
+        subtitle: "From artillery officer to emperor",
+        category: "Leaders",
+        image: "https://images.unsplash.com/photo-1579548122080-c35fd6820ecb?q=80&w=2070&auto=format&fit=crop",
+        excerpt: "Revolution created him. Europe feared him.",
+        content: [
+            { type: "lead", text: "Corsica. 1769." },
+            { type: "normal", text: "A minor noble family. A restless boy." },
+            { type: "emphasis", text: "Revolution rewards the bold." },
+            { type: "normal", text: "He crowned himself emperor." },
+            { type: "closing", text: "Power does not share the stage." }
+        ]
+    },
+    {
+        slug: "stalins-purges",
+        title: "The Great Purge",
+        subtitle: "When paranoia ruled a superpower",
+        category: "Leaders",
+        image: "https://images.unsplash.com/photo-1520975922284-93f04bcd6c60?q=80&w=2070&auto=format&fit=crop",
+        excerpt: "Millions vanished in silence.",
+        content: [
+            { type: "lead", text: "Moscow. 1936." },
+            { type: "normal", text: "Confessions were extracted. Loyalty was questioned." },
+            { type: "emphasis", text: "No one was safe." },
+            { type: "normal", text: "The revolution devoured its own architects." },
+            { type: "closing", text: "Fear became governance." }
+        ]
+    },
+    {
+        slug: "great-depression",
+        title: "The Crash That Shook the World",
+        subtitle: "When markets erased hope",
+        category: "Collapse",
+        image: "https://images.unsplash.com/photo-1508385082359-f48d5c08e6de?q=80&w=2070&auto=format&fit=crop",
+        excerpt: "Wall Street collapsed. So did livelihoods.",
+        content: [
+            { type: "lead", text: "October 1929." },
+            { type: "normal", text: "Stocks plummeted. Banks shuttered." },
+            { type: "emphasis", text: "Confidence evaporated overnight." },
+            { type: "normal", text: "Breadlines stretched across cities." },
+            { type: "closing", text: "Economic collapse reshaped politics." }
+        ]
+    },
+    {
+        slug: "fall-of-soviet-union",
+        title: "The Last Flag Lowered",
+        subtitle: "The end of a superpower",
+        category: "Collapse",
+        image: "https://images.unsplash.com/photo-1554072675-66db59dba46f?q=80&w=2070&auto=format&fit=crop",
+        excerpt: "A red empire dissolved without war.",
+        content: [
+            { type: "lead", text: "December 1991." },
+            { type: "normal", text: "The Soviet flag descended from the Kremlin." },
+            { type: "emphasis", text: "An ideology vanished overnight." },
+            { type: "normal", text: "Fifteen republics emerged from its shadow." },
+            { type: "closing", text: "The Cold War ended not with fire — but with exhaustion." }
+        ]
     }
 ];
