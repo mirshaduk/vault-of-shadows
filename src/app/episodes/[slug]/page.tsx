@@ -39,13 +39,25 @@ export default async function EpisodePage({
 
             {/* Story Content */}
             <section className="py-24 px-6 max-w-3xl mx-auto leading-8 text-lg font-['Inter'] space-y-8">
-                {episode.content.split("\n\n").map((paragraph, index) => (
-                    <FadeIn key={index}>
-                        <p className="opacity-80">
-                            {paragraph}
-                        </p>
-                    </FadeIn>
-                ))}
+                {episode.content.map((block: any, index: number) => {
+                    let textClass = "opacity-80";
+
+                    if (block.type === "lead") {
+                        textClass = "text-2xl font-['Cinzel'] text-red-100 font-semibold tracking-wide";
+                    } else if (block.type === "emphasis") {
+                        textClass = "text-xl italic border-l-2 border-red-800 pl-6 text-[#f2f2f2]";
+                    } else if (block.type === "closing") {
+                        textClass = "text-xl text-center opacity-60 italic mt-12";
+                    }
+
+                    return (
+                        <FadeIn key={index}>
+                            <p className={textClass}>
+                                {block.text}
+                            </p>
+                        </FadeIn>
+                    );
+                })}
             </section>
 
         </main>
