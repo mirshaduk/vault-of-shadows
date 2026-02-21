@@ -69,6 +69,21 @@ export default async function EpisodePage({
                         textClass = "text-xl text-center opacity-60 italic mt-12";
                     }
 
+                    if (block.type === "image") {
+                        return (
+                            <FadeIn key={index}>
+                                <figure className="my-12">
+                                    <img src={block.url} alt={block.caption || "Historical archive image"} className="w-full h-auto rounded-sm border border-red-900/30 shadow-2xl shadow-red-900/10 grayscale hover:grayscale-0 transition duration-1000" />
+                                    {block.caption && (
+                                        <figcaption className="text-center text-sm font-['Inter'] opacity-50 mt-4 italic">
+                                            {block.caption}
+                                        </figcaption>
+                                    )}
+                                </figure>
+                            </FadeIn>
+                        );
+                    }
+
                     return (
                         <FadeIn key={index}>
                             <p className={textClass}>
