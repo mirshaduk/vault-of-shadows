@@ -2,6 +2,9 @@ export const episodes = [
     {
         slug: "the-day-europe-exploded",
         title: "The Day Europe Exploded",
+        subtitle: "The assassination that ignited a continent",
+        image:
+            "https://images.unsplash.com/photo-1564396322457-3d8c08dbad7d?q=80&w=2070&auto=format&fit=crop",
         excerpt:
             "A single assassination triggered the first global catastrophe.",
         content: `
