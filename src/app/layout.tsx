@@ -14,7 +14,7 @@ const cinzel = Cinzel({
 
 export const metadata: Metadata = {
   title: "The Vault of Shadows",
-  description: "A dark history archive.",
+  description: "A dark documentary archive of humanity's turning points.",
 };
 
 export default function RootLayout({
@@ -25,9 +25,30 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body
-        className={`${inter.variable} ${cinzel.variable} antialiased`}
+        className={`${inter.variable} ${cinzel.variable} antialiased bg-[#0d0d0d] text-[#f2f2f2]`}
       >
+        {/* Navigation */}
+        <nav className="flex justify-between items-center px-8 py-4 border-b border-red-900">
+          <a href="/" className="text-lg font-serif tracking-widest font-['Cinzel']">
+            VAULT OF SHADOWS
+          </a>
+          <div className="space-x-6 text-sm font-['Inter']">
+            <a href="/episodes" className="hover:text-red-700 transition">
+              Episodes
+            </a>
+            <a href="/" className="hover:text-red-700 transition">
+              Archive
+            </a>
+          </div>
+        </nav>
+
         {children}
+
+        {/* Footer */}
+        <footer className="text-center text-xs opacity-50 py-6 border-t border-red-900 mt-20 font-['Inter']">
+          © 2026 The Vault of Shadows
+        </footer>
+
       </body>
     </html>
   );
