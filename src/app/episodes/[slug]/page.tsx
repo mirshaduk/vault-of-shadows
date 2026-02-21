@@ -1,5 +1,6 @@
 import { episodes } from "@/lib/episodes";
 import { notFound } from "next/navigation";
+import FadeIn from "@/components/FadeIn";
 
 export default async function EpisodePage({
     params,
@@ -37,10 +38,14 @@ export default async function EpisodePage({
             </section>
 
             {/* Story Content */}
-            <section className="py-24 px-6 max-w-3xl mx-auto leading-8 text-lg font-['Inter']">
-                <div className="whitespace-pre-line opacity-80">
-                    {episode.content}
-                </div>
+            <section className="py-24 px-6 max-w-3xl mx-auto leading-8 text-lg font-['Inter'] space-y-8">
+                {episode.content.split("\n\n").map((paragraph, index) => (
+                    <FadeIn key={index}>
+                        <p className="opacity-80">
+                            {paragraph}
+                        </p>
+                    </FadeIn>
+                ))}
             </section>
 
         </main>
