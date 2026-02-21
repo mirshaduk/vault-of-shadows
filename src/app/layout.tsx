@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Cinzel } from "next/font/google";
 import "./globals.css";
+import Link from "next/link";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -29,16 +30,16 @@ export default function RootLayout({
       >
         {/* Navigation */}
         <nav className="flex justify-between items-center px-8 py-4 border-b border-red-900">
-          <a href="/" className="text-lg font-serif tracking-widest font-['Cinzel']">
+          <Link href="/" className="text-lg font-serif tracking-widest font-['Cinzel']">
             VAULT OF SHADOWS
-          </a>
+          </Link>
           <div className="space-x-6 text-sm font-['Inter']">
-            <a href="/episodes" className="hover:text-red-700 transition">
-              Episodes
-            </a>
-            <a href="/" className="hover:text-red-700 transition">
+            <Link href="/seasons" className="hover:text-red-700 transition">
+              Seasons
+            </Link>
+            <Link href="/episodes" className="hover:text-red-700 transition">
               Archive
-            </a>
+            </Link>
           </div>
         </nav>
 

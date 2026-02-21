@@ -1,6 +1,7 @@
-import { episodes } from "@/lib/episodes";
+import { seasons } from "@/lib/episodes";
 import { notFound } from "next/navigation";
 import FadeIn from "@/components/FadeIn";
+import Link from "next/link";
 
 export default async function EpisodePage({
     params,
@@ -8,9 +9,27 @@ export default async function EpisodePage({
     params: Promise<{ slug: string }>;
 }) {
     const { slug } = await params;
-    const episode = episodes.find(
-        (ep) => ep.slug === slug
-    );
+
+    let currentSeason = null;
+    let currentArc = null;
+    let episode = null;
+    let nextEpisode = null;
+
+    for (const season of seasons) {
+        for (const arc of season.arcs) {
+            const index = arc.episodes.findIndex((ep: any) => ep.slug === slug);
+            if (index !== -1) {
+                currentSeason = season;
+                currentArc = arc;
+                episode = arc.episodes[index];
+                if (index + 1 < arc.episodes.length) {
+                    nextEpisode = arc.episodes[index + 1];
+                }
+                break;
+            }
+        }
+        if (episode) break;
+    }
 
     if (!episode) {
         return notFound();
@@ -59,6 +78,43 @@ export default async function EpisodePage({
                     );
                 })}
             </section>
+
+            {/* Next Episode Progression */}
+            {nextEpisode && (
+                <section className="max-w-3xl mx-auto px-6 pb-24 text-center">
+                    <FadeIn>
+                        <div className="border-t border-red-900/30 pt-16 mt-8">
+                            <span className="text-red-500 font-['Inter'] uppercase tracking-widest text-sm mb-4 block">
+                                Up Next in {currentArc?.title}
+                            </span>
+                            <Link href={`/episodes/${nextEpisode.slug}`} className="block group">
+                                <h3 className="text-3xl md:text-5xl font-['Cinzel'] font-bold mb-4 group-hover:text-red-50 text-red-100 transition duration-300">
+                                    {nextEpisode.title}
+                                </h3>
+                                <p className="text-lg opacity-60 font-['Inter'] group-hover:opacity-100 transition duration-300">
+                                    {nextEpisode.subtitle}
+                                </p>
+                            </Link>
+                        </div>
+                    </FadeIn>
+                </section>
+            )}
+
+            {/* End of Arc */}
+            {!nextEpisode && currentSeason && (
+                <section className="max-w-3xl mx-auto px-6 pb-24 text-center">
+                    <FadeIn>
+                        <div className="border-t border-red-900/30 pt-16 mt-8">
+                            <span className="text-zinc-500 font-['Inter'] uppercase tracking-widest text-sm mb-6 block">
+                                End of Arc: {currentArc?.title}
+                            </span>
+                            <Link href={`/seasons/${currentSeason.season}`} className="inline-block border border-red-900/50 hover:bg-red-900/20 text-red-100 font-['Inter'] uppercase tracking-widest text-sm px-8 py-4 rounded transition duration-300">
+                                Return to Season {currentSeason.season}
+                            </Link>
+                        </div>
+                    </FadeIn>
+                </section>
+            )}
 
         </main>
     );
