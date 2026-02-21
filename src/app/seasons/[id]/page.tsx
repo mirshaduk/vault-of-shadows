@@ -16,51 +16,63 @@ export default async function SeasonPage({
     }
 
     return (
-        <main className="py-32 px-6 min-h-screen">
-            <div className="max-w-4xl mx-auto text-center mb-16">
+        <main className="min-h-screen">
+
+            {/* Cinematic Header */}
+            <section className="py-32 px-6 text-center bg-gradient-to-b from-black to-zinc-900 border-b border-red-900/30">
                 <span className="text-sm font-['Inter'] text-red-500 uppercase tracking-widest block mb-4">
                     Season {season.season}
                 </span>
                 <h1 className="text-4xl md:text-6xl font-['Cinzel'] mb-6">
                     {season.title}
                 </h1>
-                <p className="opacity-70 font-['Inter'] max-w-2xl mx-auto text-xl italic">
+                <p className="opacity-70 font-['Inter'] max-w-xl mx-auto text-xl italic">
                     {season.theme}
                 </p>
-            </div>
+            </section>
 
-            <div className="max-w-4xl mx-auto space-y-16">
-                {season.arcs.map((arc, index) => (
-                    <section key={arc.title} className="bg-black/40 border border-zinc-800 p-8 md:p-10 rounded-lg">
-                        <h2 className="text-3xl font-['Cinzel'] font-bold mb-8 flex items-center gap-4">
-                            <span className="text-red-800 text-xl font-['Inter']">Arc {index + 1}</span>
-                            {arc.title}
-                        </h2>
+            {/* Arc Grid */}
+            <section className="py-20 px-8">
+                <div className="grid md:grid-cols-2 gap-10 max-w-5xl mx-auto">
 
-                        <div className="space-y-4">
-                            {arc.episodes.map((episode) => (
-                                <Link
-                                    key={episode.slug}
-                                    href={`/episodes/${episode.slug}`}
-                                    className="flex flex-col sm:flex-row sm:items-center justify-between p-4 md:p-6 bg-zinc-900/50 hover:bg-red-950/20 border border-transparent hover:border-red-900/50 transition duration-300 rounded group"
-                                >
-                                    <div className="mb-2 sm:mb-0">
-                                        <h3 className="text-xl font-['Cinzel'] font-semibold group-hover:text-red-50 transition">
-                                            {episode.title}
-                                        </h3>
-                                        <p className="opacity-60 text-sm font-['Inter'] mt-1">
+                    {season.arcs.map((arc, index) => (
+                        <div
+                            key={arc.title}
+                            className="bg-zinc-900/50 p-8 hover:bg-zinc-800/80 transition duration-300 border border-red-900/40 relative group overflow-hidden"
+                        >
+                            <div className="absolute inset-0 bg-gradient-to-br from-red-900/10 to-transparent opacity-0 group-hover:opacity-100 transition duration-500 pointer-events-none"></div>
+
+                            <span className="text-red-800 text-sm font-['Inter'] uppercase tracking-widest block mb-2">
+                                Arc {index + 1}
+                            </span>
+                            <h3 className="text-2xl mb-8 font-['Cinzel'] font-semibold">
+                                {arc.title}
+                            </h3>
+
+                            <div className="space-y-4">
+                                {arc.episodes.map((episode) => (
+                                    <Link
+                                        key={episode.slug}
+                                        href={`/episodes/${episode.slug}`}
+                                        className="block group/link"
+                                    >
+                                        <div className="flex items-center gap-3">
+                                            <span className="text-red-700 opacity-50">•</span>
+                                            <span className="text-red-100 font-['Cinzel'] group-hover/link:text-red-500 transition duration-300">
+                                                {episode.title}
+                                            </span>
+                                        </div>
+                                        <span className="block text-xs font-['Inter'] opacity-50 ml-5 mt-1">
                                             {episode.subtitle}
-                                        </p>
-                                    </div>
-                                    <span className="text-red-700 font-['Inter'] text-sm uppercase tracking-wider group-hover:translate-x-1 duration-300 transition-transform">
-                                        Watch Episode →
-                                    </span>
-                                </Link>
-                            ))}
+                                        </span>
+                                    </Link>
+                                ))}
+                            </div>
                         </div>
-                    </section>
-                ))}
-            </div>
+                    ))}
+
+                </div>
+            </section>
 
             <div className="max-w-4xl mx-auto mt-16 text-center">
                 <Link href="/seasons" className="text-red-500 hover:text-red-400 font-['Inter'] uppercase tracking-widest text-sm transition">
